@@ -39,5 +39,11 @@ public class Place {
         // Сюда нужен код для получения картинки и ее обработки BitMap
         return picture;
     }
+    public String ShowInfo(Place place)
+    {
+        String info = "";
+        info = "Имя:  " + place.getName() + " Описание: " + place.description + " адрес: " + place.location + " цена:  " + place.price + " время: "  + place.time;
+        return info;
+    }
 }
 

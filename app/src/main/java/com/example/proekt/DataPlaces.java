@@ -35,6 +35,6 @@ public class DataPlaces
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        return place.getName();
+        return place.ShowInfo(place);
     }
 }
